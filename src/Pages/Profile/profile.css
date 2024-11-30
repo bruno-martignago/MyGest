@@ -1,0 +1,85 @@
+.container-perfil {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-title {
+    margin-top: 30px;
+}
+
+.profile-title h1 {
+    font-family: "Poppins";
+    font-weight: 400;
+    padding: 10px;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.information .dir form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.information .esq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.information .esq h2 {
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.name-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo-input {
+    display: none;
+}
+.input-photo-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-photo-area button {
+    padding: 8px 10px;
+    border: 0;
+    font-family: "Poppins";
+    background-color: #01977E;
+    color: #fff;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 18px
+}
+.esq img {
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+}
+.input-photo-area button:hover {
+    background-color: #fff;
+    border:  1px solid #01977E;
+    color: #01977E;
+
+}
